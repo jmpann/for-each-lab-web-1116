@@ -2,14 +2,15 @@
 
 
 function iterativeLog(array) {
-  array.forEach(function(element, index) {
+  function callback(){
     console.log(`${index}: ${element}`)
-})
-}
-
-function iterate(callback){
+  }
+  array.forEach(callback) {
 
 }
+}
+
+
 
 function iterate(callback) {
   const array = ["a", "b", "c"]
